@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import CreateAccountScreen from './CreateAccountScreen/CreateAccountScreen';
+import FlipCard from './FlipCard/FlipCard'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <CreateAccountScreen/>
+      <FlipCard/>
       <StatusBar style="auto" />
     </View>
   );
