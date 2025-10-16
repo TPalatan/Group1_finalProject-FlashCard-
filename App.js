@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import PrivacyScreen from './Privacy/PrivacyScreen';
+import ProfileScreen from './Profile/ProfileScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <PrivacyScreen/>
+      <ProfileScreen/>
       <StatusBar style="auto" />
     </View>
   );
