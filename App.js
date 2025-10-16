@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import ProfileScreen from './Profile/ProfileScreen';
+import StudyScreen from './StudyScreen/StudyScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ProfileScreen/>
+    <StudyScreen/>
       <StatusBar style="auto" />
     </View>
   );
